@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/ReactAuthentication/static/css/main.fba351fb.chunk.css",
+    "main.js": "/ReactAuthentication/static/js/main.e2b24b38.chunk.js",
+    "main.js.map": "/ReactAuthentication/static/js/main.e2b24b38.chunk.js.map",
+    "runtime-main.js": "/ReactAuthentication/static/js/runtime-main.48a960bc.js",
+    "runtime-main.js.map": "/ReactAuthentication/static/js/runtime-main.48a960bc.js.map",
+    "static/js/2.f353c2f9.chunk.js": "/ReactAuthentication/static/js/2.f353c2f9.chunk.js",
+    "static/js/2.f353c2f9.chunk.js.map": "/ReactAuthentication/static/js/2.f353c2f9.chunk.js.map",
+    "static/js/3.bdf7efc9.chunk.js": "/ReactAuthentication/static/js/3.bdf7efc9.chunk.js",
+    "static/js/3.bdf7efc9.chunk.js.map": "/ReactAuthentication/static/js/3.bdf7efc9.chunk.js.map",
+    "index.html": "/ReactAuthentication/index.html",
+    "static/css/main.fba351fb.chunk.css.map": "/ReactAuthentication/static/css/main.fba351fb.chunk.css.map",
+    "static/js/2.f353c2f9.chunk.js.LICENSE.txt": "/ReactAuthentication/static/js/2.f353c2f9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.48a960bc.js",
+    "static/js/2.f353c2f9.chunk.js",
+    "static/css/main.fba351fb.chunk.css",
+    "static/js/main.e2b24b38.chunk.js"
+  ]
+}

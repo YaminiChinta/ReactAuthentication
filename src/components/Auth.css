@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.wrapper{
+    display: flex;
+    height: 100%;
+    background: rgba(224, 223, 223, 0.411);
+}
+.sidebar{
+    font-family: "Roboto";
+    color: white;
+}
+.head{
+    display: flex;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(153, 153, 153, 0.459);
+    cursor: pointer;
+}
+.head p{
+    font-family: Roboto;
+    font-size: 2.3em;    
+}
+.projectoverview{
+    border-bottom: 1px solid rgba(153, 153, 153, 0.459);
+    color: white;
+}
+.sidebar{
+    background: #031525;
+    /*width: 250px;*/
+    height: auto;
+    position: relative;
+    padding: 0;
+}
+#firebase{
+    height: 18px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+    font-weight: 500;
+}
+.sidebar ul{
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+    margin: 0px;
+    color: white;
+    background:rgba(83, 83, 83, 0.3);
+}
+#build{
+    font-size: 22px;
+    padding: 15px 20px;
+}
+.sidebar ul {
+    font-weight: 600;
+    font-size: 24px;
+    display: block;
+}
+.sidebar ul li a{
+    font-size: 16px;
+    color: white;
+    text-decoration: none;
+}
+.slidebar ul ul{
+    display: block;
+}
+.fas{
+    padding: 10px ;
+    color: white;
+}
+.sidebar ul ul li:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 3px;
+}
+.projectoverview:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 3px;   
+}
+#build:hover{
+    background: rgba(255,255,255,0.2);
+    border-radius: 5px;   
+}
+.sidebar ul li ul li a:active{
+    color: blue;
+}
+.sidebar ul li ul li a i:active{
+    color: blue;
+}
+body {
+    font-family: "Lato", sans-serif;
+  }
+    
+  section  {
+    transition: margin-left .5s;
+    padding: 16px;
+    width:1250px;
+  }
+  
+header ul{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: cadetblue;
+      font-size: 15px;
+     
+      
+  }
+header ul li select{
+      border: none;
+      color: cadetblue;
+      font-size: 18px;
+    
+  }
+header ul li{
+      list-style: none;
+      margin-left: 18px;
+  }
+header .top .row1 ul li select{
+      background-color: #f2f2f2;
+  }
+  .top .row1{
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+  }
+.authentication{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    color: #1b3a57;
+    font-size: 18px;
+}
+.authentication img{
+  cursor: pointer;
+}
+.topnav {
+    overflow: hidden;
+    border-bottom:1px solid black;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-bottom: 3px solid transparent;
+  }
+  
+  .topnav a:hover {
+    border-bottom: 3px solid rgb(45, 138, 245);
+  }
+  
+  .topnav a.active {
+    border-bottom: 3px solid rgb(45, 138, 245);
+  }
+  form{
+    position: relative;
+    width: calc(100%-100px);
+    min-height: calc(100vh-280px);
+    padding-bottom: 10px ;
+    background:#fafafa;
+
+  }
+  
+  form .card .card-header .adduser ul{
+    display: flex;
+    justify-content:flex-end;
+    align-items:center;
+  }
+  form .card .card-header .adduser ul input{
+    position: relative;
+    width: 75%;
+    padding: 10px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    outline: none;
+    border: 1px solid #ccc;
+  }
+  form .card .card-header .adduser ul li{
+    display: flex;
+    margin: 5px;
+    list-style: none;
+    margin-left: 10px;
+    justify-content:flex-end;
+    cursor: pointer;
+    padding-top: 20px;
+  }
+  form .card .card-header .adduser ul li button{
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  form .card .card-header .identifi ul{
+    display: flex;
+    justify-content:flex-start;
+    align-items:center;
+    padding-right: 130px;
+    justify-content: space-evenly;
+
+  }
+  form .card .card-header .identifi ul li{
+    display: flex;
+    margin: 5px;
+    list-style: none;
+    margin-left: 10px;
+    justify-content:flex-start;
+    cursor: pointer;
+    color: cadetblue;
+    font-size: 15px;
+    justify-content: space-evenly;
+
+  }
+  form .card .card-body .card-text{
+    text-align: center;
+    padding: 45px;
+  }
